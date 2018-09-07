@@ -1,18 +1,117 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Pagina Pessoal</title>
+		<title>Antônio Neto - BCT</title>
+		<meta name="keyword" content = "Antônio Neto, site, pessoal, projeto, desafio, eject, ufrn">
+		<meta name="description" content="Site pessoal de Antônio Neto">
+		<meta charset="utf-8">
+		<meta name="robots" content="index,follow">
+		<meta name="msapplication-tap-highlight" content="no">
+		<meta http-equiv="X-UA-Compatible" content="IE-edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="theme-color" content="#000">
+		<link  rel="stylesheet"   href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+		<link  rel="stylesheet"   href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" type="text/css">
+		<link  rel="stylesheet"   href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+		<link  rel="stylesheet"   href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+		<link rel="icon" sizes="192x192" href="img/iconeject.png">
+		<link rel="shortcut icon" href="http://static.ejectufrn.com.br/eject/sitio/img/favicon.png" type="image/png">
 		<link  rel="stylesheet"   href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"  crossorigin="anonymous">
 	</head>
 
 	<body>
-		<h2>ANTÔNIO NETO</h2>
-		<img src= "https://scontent.fnat1-1.fna.fbcdn.net/v/t1.0-9/20993842_1981391295410242_7077383870585367082_n.jpg?_nc_cat=0&oh=1c90c22fd5865044fecac33a8e1dc414&oe=5BFDCE5E" height="100" width="100">
-		<h3>Sobre mim</h3>
-		<p>Sou José Antônio de Souza Neto, mais conhecido como Antônio Neto. Tenho 20 anos e atualmente estudo no Bacharelado de Ciências e Tecnologia (BCT), pela UFRN.</p>
-		<h3>Interesses</h3>
-		<ul>Engenharia Biomédica</ul>
-		<ul>Aprender mais com a EJECT</ul>
-		<ul>Desenvolver a programação WEB</ul>
+		<div class= "container">
+			
+			::before
+			<div class="animated fade In quadro" >
+				<img src="https://scontent.fnat1-1.fna.fbcdn.net/v/t1.0-9/20993842_1981391295410242_7077383870585367082_n.jpg?_nc_cat=0&oh=1c90c22fd5865044fecac33a8e1dc414&oe=5BFDCE5E" height="100" width="100">
+				<div>
+					
+					
+					<h3>Antônio Neto</h3>
+					<div style="padding-left: 17px;">
+						
+						
+						<a href="https://www.facebook.com/antonio.souzneto" target="_blank">
+							<img scr="img/facebook.svg">
+						</a>
+						<a href="https://www.instagram.com/tomsouzaneto/" target="_blank">
+							<img style="margin-left: 10px;" src="img/Instagram.svg">
+						</a>
+						<a href="https://www.youtube.com/channel/UCQygQPzqMyGUhZbKXHwv98A?view_as=public" target="_blank">
+							<img style="margin-left: 10px;" src="img/youtube.svg">
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+			::before
+			<div class="col-xs-12" style="margin-top: 40px;">
+			
+			</div>
+			<div class="col-xs-12">
+				<div class="col-xs-12 col-sm-offset-2 col-sm-8 col-md-offset-0 col-md-6 modulo">
+					<h4 class="animated fadeIn" style="animation-delay:300ms;">Sobre mim:</h4>
+					<hr class="animated fadeIn" style="animation-delay:350ms;">
+						<p class="animated fadeIn" style="animation-delay:400ms;">
+							"
+                    						Sou José Antônio de Souza Neto, mais conhecido como Antônio Neto. Tenho 20 anos e atualmente estudo no Bacharelado de Ciências e Tecnologia (BCT), pela Universidade Federal do Rio Grande do Norte.
+                    		"
+						</p>
+			</div>
+				<div class="col-xs-12 col-sm-offset-2 col-sm-8 col-md-offset-0 col-md-6 modulo">
+					<h4 class="animated fadeIn" style="animation-delay:1300ms;">
+						Contato:	
+					</h4>
+					<hr class="animated fadeIn" style="animation-delay:1400ms;">
+					<form name="sendtMessage" id="contactForm" action="sendmail.php">
+							<div>
+								<div class="col-xs-12 animated fadeIn" style="padding:0;animation-delay:1500ms;">
+									<div class="form-group col-xs-12 col-md-6 nameinput">
+									<input type="text" class="form-control" placeholder="Seu nome" id="name" required data-validarion-required-message="Please enter your name." name="name">
+									<p class="help-block text-danger">
+									</p>	
+								</div>
+									<div class="form-group col-xs-12 col-md-6 nameinput">
+										<input type="tel" class="form-control" placeholder="Seu telefone" id="phone" required data-validation-required-message="Please enter yout phone number." name="phone">
+										<p class="help-block text-danger">
+											
+										</p>
+									</div>
+									<div class="form-group">
+										<input type="email" class="form-control" placeholder="Seu email" id="email" required data-validation-required-message="Please enter your email address." name="email">
+										<p class="help-block text-danger">
+											
+										</p>
+									</div>
+									<div class="col-xs-12 animated fadeIn" style="padding:0;animation-delay:1600ms;">
+									
+									<div class="form-group">
+										<textarea style="height:90px;resize:vertical;" class="form-control" placeholder="Sua mensagem" id="message" required data-validation-required-message="Please enter a message." name="message">
+										
+										</textarea>
+										<p class="help-block text-danger">
+										
+										</p>
+									</div>
+								</div>
+									<div class="clearfix">
+									::before
+									::after
+								</div>	
+									<div class="col-xs-12 text-center animated fadeIn" style="padding:0;animation-delay:1700ms;">
+									<div id="sucess">
+									
+									</div>
+									<button type="submit" class="btn-send btn btn-x1">
+										Enviar mensagem
+									
+									</button>
+									
+									
+								</div>
+								</div>
+								
+					</form>		
 	</body>
 </html>
