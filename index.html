@@ -19,9 +19,8 @@
 		<link  rel="stylesheet"   href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"  crossorigin="anonymous">
 	</head>
 
-	<body>
-		<div class= "container">
-			
+	<body>		
+		<div class= "container">					
 			::before
 			<div class="animated fade In quadro" >
 				<img src="https://scontent.fnat1-1.fna.fbcdn.net/v/t1.0-9/20993842_1981391295410242_7077383870585367082_n.jpg?_nc_cat=0&oh=1c90c22fd5865044fecac33a8e1dc414&oe=5BFDCE5E" height="100" width="100">
@@ -44,34 +43,35 @@
 					</div>
 				</div>
 			</div>
-			<div class="row">
-			::before
-			<div class="col-xs-12" style="margin-top: 40px;">
-			
-			</div>
-			<div class="col-xs-12">
-				<div class="col-xs-12 col-sm-offset-2 col-sm-8 col-md-offset-0 col-md-6 modulo">
-					<h4 class="animated fadeIn" style="animation-delay:300ms;">Sobre mim:</h4>
-					<hr class="animated fadeIn" style="animation-delay:350ms;">
+			<div class="row">	
+				::before
+				<div class="col-xs-12" style="margin-top: 40px;">
+					
+				</div>	
+				<div class="col-xs-12">			
+					<div class="col-xs-12 col-sm-offset-2 col-sm-8 col-md-offset-0 col-md-6 modulo">
+						<h4 class="animated fadeIn" style="animation-delay:300ms;">Sobre mim:</h4>
+						<hr class="animated fadeIn" style="animation-delay:350ms;">
 						<p class="animated fadeIn" style="animation-delay:400ms;">
 							"
-                    						Sou José Antônio de Souza Neto, mais conhecido como Antônio Neto. Tenho 20 anos e atualmente estudo no Bacharelado de Ciências e Tecnologia (BCT), pela Universidade Federal do Rio Grande do Norte.
-                    		"
+											Sou José Antônio de Souza Neto, mais conhecido como Antônio Neto. Tenho 20 anos e atualmente estudo no Bacharelado de Ciências e Tecnologia (BCT), pela Universidade Federal do Rio Grande do Norte.
+							"
 						</p>
-			</div>
-				<div class="col-xs-12 col-sm-offset-2 col-sm-8 col-md-offset-0 col-md-6 modulo">
-					<h4 class="animated fadeIn" style="animation-delay:1300ms;">
-						Contato:	
-					</h4>
-					<hr class="animated fadeIn" style="animation-delay:1400ms;">
-					<form name="sendtMessage" id="contactForm" action="sendmail.php">
+					</div>
+					<div class="col-xs-12 col-sm-offset-2 col-sm-8 col-md-offset-0 col-md-6 modulo">
+						
+						<h4 class="animated fadeIn" style="animation-delay:1300ms;">
+							Contato:	
+						</h4>
+						<hr class="animated fadeIn" style="animation-delay:1400ms;">
+						<form name="sendtMessage" id="contactForm" action="sendmail.php">
 							<div>
 								<div class="col-xs-12 animated fadeIn" style="padding:0;animation-delay:1500ms;">
 									<div class="form-group col-xs-12 col-md-6 nameinput">
-									<input type="text" class="form-control" placeholder="Seu nome" id="name" required data-validarion-required-message="Please enter your name." name="name">
-									<p class="help-block text-danger">
-									</p>	
-								</div>
+										<input type="text" class="form-control" placeholder="Seu nome" id="name" required data-validarion-required-message="Please enter your name." name="name">
+										<p class="help-block text-danger">
+										</p>	
+									</div>
 									<div class="form-group col-xs-12 col-md-6 nameinput">
 										<input type="tel" class="form-control" placeholder="Seu telefone" id="phone" required data-validation-required-message="Please enter yout phone number." name="phone">
 										<p class="help-block text-danger">
@@ -84,8 +84,8 @@
 											
 										</p>
 									</div>
-									<div class="col-xs-12 animated fadeIn" style="padding:0;animation-delay:1600ms;">
-									
+								</div>	
+								<div class="col-xs-12 animated fadeIn" style="padding:0;animation-delay:1600ms;">
 									<div class="form-group">
 										<textarea style="height:90px;resize:vertical;" class="form-control" placeholder="Sua mensagem" id="message" required data-validation-required-message="Please enter a message." name="message">
 										
@@ -95,11 +95,11 @@
 										</p>
 									</div>
 								</div>
-									<div class="clearfix">
+								<div class="clearfix">
 									::before
 									::after
 								</div>	
-									<div class="col-xs-12 text-center animated fadeIn" style="padding:0;animation-delay:1700ms;">
+								<div class="col-xs-12 text-center animated fadeIn" style="padding:0;animation-delay:1700ms;">
 									<div id="sucess">
 									
 									</div>
@@ -110,8 +110,158 @@
 									
 									
 								</div>
-								</div>
-								
-					</form>		
+							</div>
+						</form>	
+					</div>
+				</div>
+				::after
+			</div>
+			::after	
+		</div>
+		<style type="text/css">
+			@media (max-width: 991px){
+					.naminput{
+							padding-right: 0px;
+					}
+					.phoneinput{
+						padding-left: 0px;
+					}
+					
+			}
+			@media (min-width: 992px){
+				.nameinput{
+					padding-right: 5px;
+				}
+				.phoneinput{
+						padding-left: 5px;
+				}
+			}
+			body::-webkit-scrollbar{width:10px; background:#eee;}
+			body::-webkit-scrollbar-track{background:#eee;}
+			body::-webkit-scrollbar-thumb{border:1px solid #eee; border-radius:10px; background:#b0b0b0;}
+			hr{
+					margin-top: 0;
+			}
+			.btn-send{
+					outline:some;
+					transition-delay:300ms;
+					transition-duration:300ms;
+					background-color:rgba(255,255,255,0.5);
+					border: 2px solid transparent;
+					width: 100%
+			}
+			.btn-send:active{
+					outline:none;
+					transition-duration:300ms;
+					box-shadow:none;
+					width:100%
+					border-color: #ffc100;
+			}
+			.bnt-send:focus{
+					outline:none;
+			}
+			.form-control{
+					transition-duration:300ms;
+					background-color: transparent;
+					color:white;
+					border-width: 20px;
+					border-color: rgba(255,255,255,0.5);
+			}
+			.form-control:focus{
+					transition-dutarion:300ms;
+					border-color:ffc100;
+					outline: 0;
+					box-shadow: none;
+			}
+			text-success{
+					background-color:rgba(0,255,0,0.2);
+					margin-bottom:20px;
+					margin:5px 0;
+					color: white;
+					transition: 200ms;
+			}
+			.nameinput{
+					margin-bottom:3px;
+					padding-left:0;
+			}
+			.phoneinput{
+					margin-bottom:2px;
+					padding-right:0
+			}
+			.row{
+					margin-top:180px;
+			}
+			a img{
+					margin-top: 10px;
+					width:30px;
+			}
+			
+			p{
+					text-align:justify;
+					text-indent:10px;
+					color:white;
+					word-wrap: break-word;
+			}
+			h3, #imgme{
+					margin:auto;
+			}
+			
+			h3{
+					color:white;
+			}
+			h4{
+					color:white;
+			}
+			#imgme{
+					margin:auto;
+					padding:0;
+					whith:110px;
+					border-radius:50%;
+			}
+			.navbar{
+					border-radius:0px;
+			}
+			#background{
+					min-height:140%
+					width:100%
+					position:fixed;
+					z-index:0;
+					background-image: linear-gradient(120deg.#6e694f,#6c7c82);
+			}
+			nav{
+					z-index:2;
+			}
+			.quadro{
+					display:flex;
+					margin-left: -150px;
+					left:50%
+					width:300px;
+					heifht:150px;
+					position:absolute;
+					margin-top:42px;
+					box-shadow:2px 8px 30px rgba(0,0,0,0.3);
+					margin-bottom:30px;
+					animation-delay:200ms;
+					background-image:linear-gradient(160deg,#eee,#f5f5f5);
+					border:5pc solid white;
+					
+			}
+			.quadro a{
+					outline:none;
+					color:transparent;
+			}
+			.quadro div{
+					animation-delay:600ms;
+					max-height:170px;
+					mardin:auto;
+			}
+			.modulo{
+					margin-bottom:30px;
+			}	
+		</style>	
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>	
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.0/jquery.mask.min.js"></script>
+		<script src="sendmail.js"></script>
 	</body>
 </html>
